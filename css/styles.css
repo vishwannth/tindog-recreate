@@ -3,6 +3,7 @@
 }
 body{
     font-family:'Montserrat',bold;
+    overflow-x: hidden;
 }
 
 .container-fluid{
@@ -33,6 +34,10 @@ body{
     padding: 0 18px;
 }
 
+#nav-link{
+    color: white;
+    font-weight: bold;
+}
   
 .image1{
     width: 60%;
@@ -157,20 +162,26 @@ body{
 
 #footer{
     padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     background-color: #ff4c68;
     font-family: 'Monttserrat';
     font-weight: bold   ;
 }
 
-@media (max-width:2520px){
+@media screen and (max-width: 980px){
     .image1{
-        padding-top: 10px;
-        transform: rotate(30deg);
-        height: auto;
-        width: auto;
+        transform: rotate(0deg);
+        margin-right: 1000px;
     }
     body{
         text-align: center;
+    }
+    #card{
+        width: 100%;
+    }
+    #nav-link{
+        color: black;
+        font-weight: bold;
     }
 } 
