@@ -1,3 +1,5 @@
+
+
 #title{
     background-color: #ff4c68;
 }
@@ -48,7 +50,7 @@ body{
 }
 #features{
     position: relative;
-    z-index: 1;
+    z-index: 2;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 10%;
@@ -171,14 +173,14 @@ body{
 
 @media screen and (max-width: 980px){
     .image1{
+        padding-top: 10px;
         transform: rotate(0deg);
-        margin-right: 1000px;
+        height: 300px;
+        width: 150px;
+        left: 0%;
     }
     body{
         text-align: center;
-    }
-    #card{
-        width: 100%;
     }
     #nav-link{
         color: black;
