@@ -163,12 +163,12 @@ body{
     font-weight: bold   ;
 }
 
-@media (max-width:900px){
+@media (max-width:2520px){
     .image1{
         padding-top: 10px;
-        transform: rotate(0deg);
-        position: relative;
-        left: 0%;
+        transform: rotate(30deg);
+        height: auto;
+        width: auto;
     }
     body{
         text-align: center;
